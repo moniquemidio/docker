@@ -1,0 +1,41 @@
+body {
+    background-image:url(./assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #800080;
+    text-align: center;
+}
+
+#task-input {
+    /*definimos a largura*/
+     width:300px;
+     /* definimos a altura*/
+     height:100px;
+     /* definimos a cor de fundo*/
+     background-color:#BA55D3;
+     /* definimos o quão arredondado irá ficar*/
+     border-radius: 10px 20px;
+     
+}
+
+#add-task {
+     /*definimos a largura*/
+     width:150px;
+     /* definimos a altura*/
+     height:50px;
+     /* definimos a cor de fundo*/
+     background-color:#BA55D3;
+     /* definimos o quão arredondado irá ficar */
+     border-radius: 10px 20px;
+     color: white;
+     font-weight: bold;
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+}
